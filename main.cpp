@@ -1,7 +1,7 @@
-#include "src/expense.h"
-#include <cassert>
-#include <iostream>
+#include "src/utils/utilities.h"
 
-int main() {
+int main(int argc, char* argv[]) {
+
+    auto cmd = utils::parseCommandLineArgs(argc, argv);
     return 1;
 }
